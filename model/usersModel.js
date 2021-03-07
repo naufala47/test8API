@@ -9,7 +9,7 @@ const ModelUsers = new mongodb.Schema({
         type: String
     },
     userPhone: {
-        type: "number"
+        type: String
     },
     userAddress: {
         type: String
